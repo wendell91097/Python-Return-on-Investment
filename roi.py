@@ -35,7 +35,7 @@ class ReturnCalculcator():
         expense9 = int(input('\nPlease enter the monthly mortgage. '))
         
         self.expenses = expense1 + expense2 + expense3 + expense4 + expense5 + expense6 + expense7 + expense8 + expense9
-        print(f"YOur monthly expenses are: ${self.expenses}.")
+        print(f"Your monthly expenses are: ${self.expenses}.")
     def incomeCalculator(self):
         print("To calculate your return on investment we need some information. Enter 0 if nothing applies.")
         print("Enter numbers without any dollar or cent signs.")
